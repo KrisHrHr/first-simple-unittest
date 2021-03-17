@@ -6,11 +6,7 @@
 #include <stdio.h>
 #include "cmocka.h"
 #include "assert.h"
-
-int add(int, int);
-int subtract(int, int);
-int multiply(int, int);
-float divide(int, int);
+#include "calc_beg.h"
 
 int add(int a, int b)
 {
