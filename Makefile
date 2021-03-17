@@ -6,3 +6,6 @@ SOURCE_FILES = calc_test.c \
 				
 all:
 	$(CC) $(SOURCE_FILES) $(CFLAGS) -o $(EXECUTABLE) -l cmocka
+
+runall:
+	./$(EXECUTABLE)
